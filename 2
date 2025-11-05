@@ -44,7 +44,7 @@ bool validatePassword(string password) {
     if (hasDigit) classCount++;
     if (hasOther) classCount++;
     if (classCount < 3) {
-        cout << "error: v parole nuzhno ispolzovat bolshyu, malenkyu bykvy, cifry, i spec simvol " << endl;
+        cout << "v parole nuzhno ispolzovat 3 iz 4 klassov: bolshyu, malenkyu bykvy, cifry, spec simvol " << endl;
         return false;
     }
 
